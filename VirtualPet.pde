@@ -3,12 +3,11 @@ import cc.arduino.*;
 Arduino arduino;
 
 void setup() {
-arduino = new Arduino(this, Arduino.list()[0], 57600);
 size(400,400);
 }
 
 void draw() {
-int y = arduino.analogRead(5);
+//int y = arduino.analogRead(5);
  if(y > 100)
  {
   background(0,0,255);
